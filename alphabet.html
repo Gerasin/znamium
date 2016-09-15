@@ -1,0 +1,479 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        
+        <meta name="viewport" content="width=1320">
+
+        <link rel="icon" type="image/ico" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700&subset=cyrillic" rel="stylesheet">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        
+        <div class="head head-inner">
+            <div class="head__info">
+                <div class="container">
+                    <div class="head__logo"><a href="/"><img src="img/logo.png" alt=""></a></div>
+                    <ul class="head__menu">
+                        <li><a href="">Тематический указатель</a></li>
+                        <li class="active"><a href="">Алфавитный указатель</a></li>
+                    </ul>
+                    <ul class="head__autorize"> 
+                        <li><a href=""><span class="ico_autorize"></span> О проекте</a></li>
+                        <li><a href=""><span class="ico_about"></span> Авторизация</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <form action="">
+                    <div class="head__search">
+                        <div class="head__search-header">
+                            <div class="head__search-detals"><a href="" class="js-searc-open">Расширенный поиск</a></div>
+                            <div class="head__search-body">
+                                <div class="head__search-cont">
+                                    <div class="head__search-select">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="select_head">По всем типам статей</span> <span class="caret"></span></button>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#" class="active">По всем типам статей</a></li>
+                                            <li><a href="#">Справочные</a></li>
+                                            <li><a href="#">Словарь</a></li>
+                                            <li><a href="#">Энциклопедические</a></li>
+                                        </ul>
+                                    </div>
+                                    <input type="text" class="head__search-input" placeholder="Например «Приокско-террасный заповедник»">
+                                </div>
+                                <input type="submit" class="head__search-btn" value="Найти">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="head__search-footer-body">
+                        <div class="head__search-footer">
+                            <div class="head__search-footer__date">
+                                <input type="text" placeholder="Год актуализации" class="js-datepicker">
+                                <img src="img/ico/date.png" alt="">
+                            </div>
+                            <div class="head__search-footer__radio">
+                                <input type="radio" name="search_radio" id="ch_mass" checked="checked"><label for="ch_mass">Массовая</label>
+                                <input type="radio" name="search_radio" id="ch_scientific"><label for="ch_scientific">Научная</label>
+                                <input type="radio" name="search_radio" id="ch_mass_scientific"><label for="ch_mass_scientific">Научно-популярная</label> 
+                            </div>
+                            <div class="head__search-footer__select">
+                                <select class="selectpicker" data-live-search="true" data-size="7">
+                                  <option data-tokens="0">Энциклопедия</option>
+                                  <option data-tokens="1">Wikipedia</option>
+                                  <option data-tokens="2">Научный справочник им. Наумова</option>
+                                  <option data-tokens="3">Энциклопедия</option>
+                                </select> 
+                            </div>
+                            <div class="head__search-footer__reset js-search-reset">
+                                <a href="">Сброс условий поиска</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="head__state">
+                    <div class="head__state-item">
+                        <strong>150 000</strong>
+                        статей
+                    </div>
+                    <div class="head__state-item">
+                        <strong>200 000</strong>
+                        пользователей
+                    </div>
+                    <div class="head__state-item">
+                        <strong>5</strong>
+                        энциклопедий
+                    </div>
+                    <div class="head__state-item">
+                        <strong>3</strong>
+                        словаря
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="container">
+                <div class="crubs">
+                    <a href="">Главная страница</a> <span><img src="img/ico/crubs_pointer.png" alt=""></span>
+                </div>
+                <div class="body-header">
+                    <h1>Алфавитный указатель</h1>
+                    <ul class="alpabet_lang">
+                        <li><a href="" class="active">Русский</a></li>
+                        <li><a href="">Английский</a></li>
+                    </ul>
+                </div>
+                <div class="alpabet-tab">
+                    <div class="alpabet-tab__item">
+                        <div class="alphabet js-alphabet">
+                            <a href="#tab_1" class="alphabet__item">А</a>
+                            <a href="#tab_2" class="alphabet__item">Б</a>
+                            <a href="#tab_3" class="alphabet__item">В</a>
+                            <a href="#tab_4" class="alphabet__item">Г</a>
+                            <a href="#tab_5" class="alphabet__item">Д</a>
+                            <a href="" class="alphabet__item">Е</a>
+                            <a href="" class="alphabet__item">Ё</a>
+                            <a href="" class="alphabet__item">Ж</a>
+                            <a href="" class="alphabet__item">З</a>
+                            <a href="" class="alphabet__item">И</a>
+                            <a href="" class="alphabet__item">Й</a>
+                            <a href="" class="alphabet__item">К</a>
+                            <a href="" class="alphabet__item">Л</a>
+                            <a href="" class="alphabet__item">М</a>
+                            <a href="" class="alphabet__item">Н</a>
+                            <a href="" class="alphabet__item">О</a>
+                            <a href="" class="alphabet__item">П</a>
+                            <a href="" class="alphabet__item">Р</a>
+                            <a href="" class="alphabet__item">С</a>
+                            <a href="" class="alphabet__item">Т</a>
+                            <a href="" class="alphabet__item">У</a>
+                            <a href="" class="alphabet__item">Ф</a>
+                            <a href="" class="alphabet__item">Х</a>
+                            <a href="" class="alphabet__item">Ц</a>
+                            <a href="" class="alphabet__item">Ч</a>
+                            <a href="" class="alphabet__item">Ш</a>
+                            <a href="" class="alphabet__item">Щ</a>
+                            <a href="" class="alphabet__item">Э</a>
+                            <a href="" class="alphabet__item">Ю</a>
+                            <a href="" class="alphabet__item">Я</a>
+                        </div>
+                        <div class="alphabet-pointer"></div>
+                        <div class="alphabet-tab">
+                            <div id="tab_1" class="alphabet-two js-alphabet-two">
+                                <a href="" class="alphabet-two__item">Аб - Ав</a>
+                                <a href="" class="alphabet-two__item">Аг - Ад</a>
+                                <a href="" class="alphabet-two__item">Аз - Ай</a>
+                                <a href="" class="alphabet-two__item">Ак - Ал</a>
+                                <a href="" class="alphabet-two__item">Ам - Ан</a>
+                                <a href="" class="alphabet-two__item">Ап - Ар</a>
+                                <a href="" class="alphabet-two__item">Ас - Ат</a>
+                                <a href="" class="alphabet-two__item">Ау - Аф</a>
+                                <a href="" class="alphabet-two__item">Ац - Аэ</a>
+                                <a href="" class="alphabet-two__item">Ба - Бв</a>
+                                <a href="" class="alphabet-two__item">Бе - Би</a>
+                                <a href="" class="alphabet-two__item">Бл - Бо</a>
+                                <a href="" class="alphabet-two__item">Бп - Бр</a>
+                                <a href="" class="alphabet-two__item">Бу - Бы</a>
+                                <a href="" class="alphabet-two__item">Бэ - Ва</a>
+                                <a href="" class="alphabet-two__item">Вв - Ве</a>
+                                <a href="" class="alphabet-two__item">Вз - Ви</a>
+                                <a href="" class="alphabet-two__item">Вк - Вл</a>
+                                <a href="" class="alphabet-two__item">Вн - Во</a>
+                                <a href="" class="alphabet-two__item">Вп - Вр</a>
+                                <a href="" class="alphabet-two__item">Вс - Вт</a>
+                                <a href="" class="alphabet-two__item">Ву - Вы</a>
+                                <a href="" class="alphabet-two__item">Га - Гд</a>
+                                <a href="" class="alphabet-two__item">Ге</a>
+                            </div>
+                            <div id="tab_2" class="alphabet-two js-alphabet-two">
+                                <a href="" class="alphabet-two__item">Ба - Бв</a>
+                                <a href="" class="alphabet-two__item">Бг - Бд</a>
+                                <a href="" class="alphabet-two__item">Бз - Бй</a>
+                                <a href="" class="alphabet-two__item">Бк - Бл</a>
+                                <a href="" class="alphabet-two__item">Бм - Бн</a>
+                                <a href="" class="alphabet-two__item">Бп - Бр</a>
+                                <a href="" class="alphabet-two__item">Бс - Бт</a>
+                                <a href="" class="alphabet-two__item">Бу - Бф</a>
+                                <a href="" class="alphabet-two__item">Бц - Бэ</a>
+                            </div>
+                            <div id="tab_3" class="alphabet-two js-alphabet-two">
+                                <a href="" class="alphabet-two__item">Ва - Вв</a>
+                                <a href="" class="alphabet-two__item">Вг - Вд</a>
+                                <a href="" class="alphabet-two__item">Вз - Вй</a>
+                                <a href="" class="alphabet-two__item">Вк - Вл</a>
+                                <a href="" class="alphabet-two__item">Вм - Вн</a>
+                                <a href="" class="alphabet-two__item">Вп - Вр</a>
+                                <a href="" class="alphabet-two__item">Вс - Вт</a>
+                                <a href="" class="alphabet-two__item">Ву - Вф</a>
+                                <a href="" class="alphabet-two__item">Вц - Вэ</a>
+                            </div>
+                            <div id="tab_4" class="alphabet-two js-alphabet-two">
+                                <a href="" class="alphabet-two__item">Га - Гв</a>
+                                <a href="" class="alphabet-two__item">Гг - Гд</a>
+                                <a href="" class="alphabet-two__item">Гз - Гй</a>
+                                <a href="" class="alphabet-two__item">Гк - Гл</a>
+                                <a href="" class="alphabet-two__item">Гм - Гн</a>
+                                <a href="" class="alphabet-two__item">Гп - Гр</a>
+                                <a href="" class="alphabet-two__item">Гс - Гт</a>
+                                <a href="" class="alphabet-two__item">Гу - Гф</a>
+                                <a href="" class="alphabet-two__item">Гц - Гэ</a>
+                            </div>
+                            <div id="tab_5" class="alphabet-two js-alphabet-two">
+                                <a href="" class="alphabet-two__item">Да - Дв</a>
+                                <a href="" class="alphabet-two__item">Дг - Дд</a>
+                                <a href="" class="alphabet-two__item">Дз - Дй</a>
+                                <a href="" class="alphabet-two__item">Дк - Дл</a>
+                                <a href="" class="alphabet-two__item">Дм - Дн</a>
+                                <a href="" class="alphabet-two__item">Дп - Др</a>
+                                <a href="" class="alphabet-two__item">Дс - Дт</a>
+                                <a href="" class="alphabet-two__item">Ду - Дф</a>
+                                <a href="" class="alphabet-two__item">Дц - Дэ</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="alpabet-tab__item">
+                        <div class="alphabet js-alphabet">
+                            <a href="#tab_lant_1" class="alphabet__item">A</a>
+                            <a href="#tab_lant_2" class="alphabet__item">B</a>
+                            <a href="#tab_lant_3" class="alphabet__item">C</a>
+                            <a href="#tab_lant_4" class="alphabet__item">D</a>
+                            <a href="#tab_lant_5" class="alphabet__item">E</a>
+                            <a href="" class="alphabet__item">F</a>
+                            <a href="" class="alphabet__item">G</a>
+                            <a href="" class="alphabet__item">H</a>
+                            <a href="" class="alphabet__item">I</a>
+                            <a href="" class="alphabet__item">J</a>
+                            <a href="" class="alphabet__item">K</a>
+                            <a href="" class="alphabet__item">L</a>
+                            <a href="" class="alphabet__item">M</a>
+                            <a href="" class="alphabet__item">N</a>
+                            <a href="" class="alphabet__item">O</a>
+                            <a href="" class="alphabet__item">P</a>
+                            <a href="" class="alphabet__item">Q</a>
+                            <a href="" class="alphabet__item">R</a>
+                            <a href="" class="alphabet__item">S</a>
+                            <a href="" class="alphabet__item">T</a>
+                            <a href="" class="alphabet__item">U</a>
+                            <a href="" class="alphabet__item">V</a>
+                            <a href="" class="alphabet__item">X</a>
+                            <a href="" class="alphabet__item">Y</a>
+                            <a href="" class="alphabet__item">Z</a>
+                        </div>
+                        <div class="alphabet-pointer"></div>
+                        <div class="alphabet-tab">
+                            <div id="tab_lant_1" class="alphabet-two js-alphabet-two">
+                                <a href="" class="alphabet-two__item">Ab - Аc</a>
+                                <a href="" class="alphabet-two__item">Ac - Аg</a>
+                                <a href="" class="alphabet-two__item">Ag - Аk</a>
+                                <a href="" class="alphabet-two__item">Ak - Аp</a>
+                                <a href="" class="alphabet-two__item">Ap - Аs</a>
+                                <a href="" class="alphabet-two__item">As - Аv</a>
+                                <a href="" class="alphabet-two__item">Av - Аz</a>
+                            </div>
+                            <div id="tab_lant_2" class="alphabet-two js-alphabet-two">
+                                <a href="" class="alphabet-two__item">Bb - Bc</a>
+                                <a href="" class="alphabet-two__item">Bc - Bg</a>
+                                <a href="" class="alphabet-two__item">Bg - Bk</a>
+                                <a href="" class="alphabet-two__item">Bk - Bp</a>
+                                <a href="" class="alphabet-two__item">Bp - Bs</a>
+                                <a href="" class="alphabet-two__item">Bs - Bv</a>
+                                <a href="" class="alphabet-two__item">Bv - Bz</a>
+                            </div>
+                            <div id="tab_lant_3" class="alphabet-two js-alphabet-two">
+                                <a href="" class="alphabet-two__item">Cb - Cc</a>
+                                <a href="" class="alphabet-two__item">Cc - Cg</a>
+                                <a href="" class="alphabet-two__item">Cg - Ck</a>
+                                <a href="" class="alphabet-two__item">Ck - Cp</a>
+                                <a href="" class="alphabet-two__item">Cp - Cs</a>
+                                <a href="" class="alphabet-two__item">Cs - Cv</a>
+                                <a href="" class="alphabet-two__item">Cv - Cz</a>
+                            </div>
+                            <div id="tab_lant_4" class="alphabet-two js-alphabet-two">
+                                <a href="" class="alphabet-two__item">Db - Dc</a>
+                                <a href="" class="alphabet-two__item">Dc - Dg</a>
+                                <a href="" class="alphabet-two__item">Dg - Dk</a>
+                                <a href="" class="alphabet-two__item">Dk - Dp</a>
+                                <a href="" class="alphabet-two__item">Dp - Ds</a>
+                                <a href="" class="alphabet-two__item">Ds - Dv</a>
+                                <a href="" class="alphabet-two__item">Dv - Dz</a>
+                            </div>
+                            <div id="tab_lant_5" class="alphabet-two js-alphabet-two">
+                                <a href="" class="alphabet-two__item">Eb - Ec</a>
+                                <a href="" class="alphabet-two__item">Ec - Eg</a>
+                                <a href="" class="alphabet-two__item">Eg - Ek</a>
+                                <a href="" class="alphabet-two__item">Ek - Ep</a>
+                                <a href="" class="alphabet-two__item">Ep - Es</a>
+                                <a href="" class="alphabet-two__item">Es - Ev</a>
+                                <a href="" class="alphabet-two__item">Ev - Ez</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pager-cont">
+                    <div class="pager__select">
+                        <div class="pager__select-box sel-st">
+                            <select class="selectpicker" data-live-search="false">
+                                <option data-tokens="0">Показывать по 20</option>
+                                <option data-tokens="1">Показывать по 40</option>
+                                <option data-tokens="2">Показывать по 60</option>
+                                <option data-tokens="3">Показывать все</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="pager__namber">
+                        <ul class="pager__list">
+                            <li class="active"><a href="">1</a></li>
+                            <li><a href="">2</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">4</a></li>
+                            <li><a href="">5</a></li>
+                            <li><a href="">6</a></li>
+                        </ul>
+                        <div class="pager__list-next"><a href="">Дальше <span class="pointer_r"></span></a></div>
+                    </div>
+                </div>
+                <div class="catalog cleafix">
+                    <div class="catalog__info">
+                        Найдено 2304 терминов
+                    </div>
+                    <div class="catalog__list">
+                        <div class="catalog__item">
+                            <div class="catalog__item-header">
+                                <a href="">АГГЛЮТИНАЦИЯ</a>
+                                <a href=""><span class="ico_book"></span></a>
+                                <a href="" data-toggle="modal" data-target="#quote"><span class="ico_quotes"></span></a>
+                            </div>
+                            <div class="catalog__item-txt">
+                                АГГЛЮТИНАЦИЯ– agglutination (от лат. agglu­tinatio – прикле­ ивание) – склеивание и выпадение в осадок из однородной взвеси бактерий, эритроцитов и др. клеток. Происходит в результате вза­ имодействия антител – агглютинов с антигенами. Реакцию А. при­ меняют при выявлении соответствующих антител в иммунной сы<span class="reduction">...</span>
+                                <div class="catalog__item-txt-open">
+                                    склеивание и выпадение в осадок из однородной взвеси бактерий, эритроцитов и др. клеток. Происходит в результате вза­ имодействия антител – агглютинов с антигенами. Реакцию А. при­ меняют при выявлении соответствующих антител в иммунной склеивание и выпадение в осадок из однородной взвеси бактерий, эритроцитов и др. клеток. Происходит в результате вза­ имодействия антител – агглютинов с антигенами. Реакцию А. при­ меняют при выявлении соответствующих антител в иммунной склеивание и выпадение в осадок из однородной взвеси бактерий, эритроцитов и др. клеток. Происходит в результате вза­ имодействия антител – агглютинов с антигенами. Реакцию А. при­ меняют при выявлении соответствующих антител в иммунной склеивание и выпадение в осадок из однородной взвеси бактерий, эритроцитов и др. клеток. Происходит в результате вза­ имодействия антител – агглютинов с антигенами. Реакцию А. при­ меняют при выявлении соответствующих антител в иммунной склеивание и выпадение в осадок из однородной взвеси бактерий, эритроцитов и др. клеток. Происходит в результате вза­ имодействия антител – агглютинов с антигенами. Реакцию А. при­ меняют при выявлении соответствующих антител в иммунной
+                                </div>
+                            </div>
+                            <div class="catalog__item-detal">
+                                <p>Год актуализации: <strong>2008</strong></p>
+                                <p>Источник публикации: <strong><a href="">Экологическая энциклопедия</a></strong></p>
+                                <p class="catalog__item-like">Похожее: 
+                                    <a href="" rel="0" class="catalog__item-ico"><img src="img/ico/ico_w.png" alt=""></a>
+                                    <a href="" rel="1" class="catalog__item-ico"><img src="img/ico/ico_s.png" alt=""></a>
+                                </p>
+                            </div>
+                            <div class="catalog__like-tab">
+                                <div class="catalog__like-item">
+                                    <span><a href="">Конвенция ООН о договорах международной купли-продажи товаров</a></span>
+                                    <span><a href="">Венская конвенция о праве международных договоров</a></span>
+                                    <span><a href="">Договор купли-продажи</a></span>
+                                    <span><a href="">Конвенция ООН против коррупции</a></span>
+                                    <span><a href="">Рамочная конвенция ООН об изменении климата</a></span>
+                                    <span><a href="">Конвенция ООН по морскому праву</a></span>
+                                    <span><a href="">Венская конвенция</a></span>
+                                    <span><a href="">Венская монетная конвенция</a></span>
+                                    <span><a href="">Венская конвенция об охране озонового слоя</a></span>
+                                    <span><a href="">Венская конвенция о дорожном движении</a></span>
+                                </div>
+                                <div class="catalog__like-item">
+                                    <span><a href="">Конвенция ООН о договорах международной купли-продажи товаров</a></span>
+                                    <span><a href="">Венская конвенция о праве международных договоров</a></span>
+                                    <span><a href="">Договор купли-продажи</a></span>
+                                    <span><a href="">Конвенция ООН против коррупции</a></span>
+                                    <span><a href="">Рамочная конвенция ООН об изменении климата</a></span>
+                                    <span><a href="">Конвенция ООН по морскому праву</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-header">
+                                <a href="">АГГРАДАЦИЯ РЕЧНОЙ ДОЛИНЫ</a>
+                                <a href=""><span class="ico_book"></span></a>
+                            </div>
+                            <div class="catalog__item-txt">
+                                АГГЛЮТИНАЦИЯ– agglutination (от лат. agglu­tinatio – прикле­ ивание) – склеивание и выпадение в осадок из однородной взвеси бактерий, эритроцитов и др. клеток. Происходит в результате вза­ имодействия антител – агглютинов с антигенами. Реакцию А. при­ меняют при выявлении соответствующих антител в иммунной сы<span class="reduction">...</span>
+                                <div class="catalog__item-txt-open">
+                                    склеивание и выпадение в осадок из однородной взвеси бактерий, эритроцитов и др. клеток. Происходит в результате вза­ имодействия антител – агглютинов с антигенами. Реакцию А. при­ меняют при выявлении соответствующих антител в иммунной склеивание и выпадение в осадок из однородной взвеси бактерий, эритроцитов и др. клеток. Происходит в результате вза­ имодействия антител – агглютинов с антигенами. Реакцию А. при­ меняют при выявлении соответствующих антител в иммунной склеивание и выпадение в осадок из однородной взвеси бактерий, эритроцитов и др. клеток. Происходит в результате вза­ имодействия антител – агглютинов с антигенами. Реакцию А. при­ меняют при выявлении соответствующих антител в иммунной склеивание и выпадение в осадок из однородной взвеси бактерий, эритроцитов и др. клеток. Происходит в результате вза­ имодействия антител – агглютинов с антигенами. Реакцию А. при­ меняют при выявлении соответствующих антител в иммунной склеивание и выпадение в осадок из однородной взвеси бактерий, эритроцитов и др. клеток. Происходит в результате вза­ имодействия антител – агглютинов с антигенами. Реакцию А. при­ меняют при выявлении соответствующих антител в иммунной
+                                </div>
+                            </div>
+                            <div class="catalog__item-detal">
+                                <p>Год актуализации: <strong>2008</strong></p>
+                                <p>Источник публикации: <strong><a href="">Экологическая энциклопедия</a></strong></p>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-header">
+                                <a href="">АГЕЛИОФИТЫ</a>
+                                <a href="" data-toggle="modal" data-target="#quote"><span class="ico_quotes"></span></a>
+                            </div>
+                            <div class="catalog__item-detal">
+                                <p>Год актуализации: <strong>2008</strong></p>
+                                <p>Источник публикации: <strong><a href="">Экологическая энциклопедия</a></strong></p>
+                            </div>
+                        </div>
+
+                        <a href="" class="next-open">Показать следующие 20</a>
+                    </div>
+                </div>
+                <div class="pager-cont pager-cont-footer">
+                    <div class="pager__select">
+                        <div class="pager__select-box sel-st">
+                            <select class="selectpicker" data-live-search="false">
+                                <option data-tokens="0">Показывать по 20</option>
+                                <option data-tokens="1">Показывать по 40</option>
+                                <option data-tokens="2">Показывать по 60</option>
+                                <option data-tokens="3">Показывать все</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="pager__namber">
+                        <ul class="pager__list">
+                            <li class="active"><a href="">1</a></li>
+                            <li><a href="">2</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">4</a></li>
+                            <li><a href="">5</a></li>
+                            <li><a href="">6</a></li>
+                        </ul>
+                        <div class="pager__list-next"><a href="">Дальше <span class="pointer_r"></span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-padding js-footer-padding"></div>
+        <div class="footer js-footer">
+            <div class="container">
+                <div class="footer__copyrite">
+                    <p>© 2012-2016 ООО "Научно-издательский центр Инфра-М" © Электронно-библиотечная система znanium.com <br> Является сетевым периодическим изданием Эл № ФС77-49601 от 02.05.2012</p> 
+                    <p>Данный ресурс обновляется постоянно (Continuously updated). Дата последнего обновления: 29.12.2015; выпуск № 860</p>
+                    <p>По всем вопросам проекта можно обращаться: <a href="mailto:ebs_support@infra-m.ru">ebs_support@infra-m.ru</a></p>
+                </div>
+                <div class="footer__soc"><img src="img/body/soc.jpg" alt=""></div>
+            </div>
+        </div>
+
+        <!-- modal -->
+        <div class="modal fade" id="quote" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Цитировать</h4>
+              </div>
+              <div class="modal-body">
+                <div class="modal-body__content">
+                    Калабин Александр Васильевич Типология жилых зданий малой и средней этажности: современное состояние // Академический вестник УралНИИпроект РААСН. 2014. №1. URL: http://cyberleninka.ru/article/n/tipologiya-zhilyh-zdaniy-maloy-i-sredney-etazhnosti-sovremennoe-sostoyanie (дата обращения: 22.08.2016).
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END modal -->
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script> 
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script> 
+        <script src="js/bootstrap-select.min.js"></script>
+        <script src="js/bootstrap-datepicker.min.js"></script>
+        <script src="js/locales/bootstrap-datepicker.ru.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        
+    </body>
+</html>
